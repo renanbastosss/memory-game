@@ -1,0 +1,18 @@
+@media (max-width: 600px) {
+
+    body {
+        height: 100vh;
+        font-size: 14px;
+    }
+
+    header {
+        width: 90vw;
+        margin: 0 auto 10px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 90vw;
+
+    }
+}
